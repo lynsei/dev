@@ -21,12 +21,6 @@
             "configureJupyterlabAllowOrigin": "*",
             "useOryxIfAvailable": "false"
         },
-        "./local-features/machine-learning-packages": "latest",
-        "ghcr.io/devcontainers/features/php:1": {
-            "version": "8.3.0",
-            "additionalVersions": "8.2.13",
-            "installComposer": "true"
-        },
         "ghcr.io/devcontainers/features/conda:1": {
             "version": "latest"
         },
@@ -49,9 +43,6 @@
         "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
             "version": "latest"
         },
-        "ghcr.io/devcontainers/features/go:1": {
-            "version": "latest"
-        },
         "./local-features/setup-user": "latest",
         "./local-features/patch-python": {},
         "./local-features/patch-conda": {}
@@ -65,14 +56,10 @@
         "./local-features/patch-conda",
         "ghcr.io/devcontainers/features/python",
         "./local-features/patch-python",
-        "./local-features/machine-learning-packages",
-        "ghcr.io/devcontainers/features/php",
         "ghcr.io/devcontainers/features/sshd",
         "ghcr.io/devcontainers/features/git-lfs",
         "ghcr.io/devcontainers/features/github-cli",
         "ghcr.io/devcontainers/features/docker-in-docker",
-        "ghcr.io/devcontainers/features/kubectl-helm-minikube",
-        "ghcr.io/devcontainers/features/go",
         "./local-features/setup-user"
     ],
     "remoteUser": "codespace",
