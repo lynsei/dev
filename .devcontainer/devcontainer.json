@@ -4,6 +4,9 @@
         "context": "."
     },
     "features": {
+        "./local-features/setup-user": "latest",
+        "./local-features/patch-python": {},
+        "./local-features/patch-conda": {},
         "ghcr.io/devcontainers/features/common-utils:2": {
             "username": "codespace",
             "userUid": "1000",
@@ -42,10 +45,7 @@
         },
         "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
             "version": "latest"
-        },
-        "./local-features/setup-user": "latest",
-        "./local-features/patch-python": {},
-        "./local-features/patch-conda": {}
+        }
     },
     "overrideFeatureInstallOrder": [
         "ghcr.io/devcontainers/features/common-utils",
