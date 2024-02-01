@@ -16,7 +16,6 @@
             "version": "20",
             "additionalVersions": "18"
         },
-        "./local-features/nvs": "latest",
         "ghcr.io/devcontainers/features/python:1": {
             "version": "3.10.13",
             "additionalVersions": "3.9.18",
