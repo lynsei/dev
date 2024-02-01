@@ -4,18 +4,6 @@
         "context": "."
     },
    "features": {
-        "./local-features/setup-user": "latest",
-        "./local-features/patch-python": {},
-        "./local-features/patch-conda": {},
-        "ghcr.io/devcontainers/features/common-utils:2": {
-            "username": "codespace",
-            "userUid": "1000",
-            "userGid": "1000"
-        },
-        "ghcr.io/devcontainers/features/node:1": {
-            "version": "20",
-            "additionalVersions": "18"
-        },
         "ghcr.io/devcontainers/features/python:1": {
             "version": "3.10.13",
             "additionalVersions": "3.9.18",
